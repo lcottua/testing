@@ -4,6 +4,8 @@
     <title>Registro de Usuario</title>
     <link rel="stylesheet" href="estilos3.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="formscript.js"></script>
+
 </head>
 
 <body>
@@ -14,17 +16,17 @@
 
 <form action="">
     <label>Nombre:</label> <br>
-    <input id="GET-name" type="text" name="name" /><br>
+    <input id="nombre" type="text" name="name" /><br>
     <label>Apellido:</label><br>
-    <input id="GET-apellido" type="text" name="apellido" /><br>
+    <input id="apellido" type="text" name="apellido" /><br>
     <label>Edad:</label><br>
-    <input id="GET-edad" type="text" name="edad" /><br>
+    <input id="edad" type="text" name="edad" /><br>
     <label>mail:</label><br>
-    <input id="GET-mail" type="text" name="mail" /><br>
+    <input id="mail" type="text" name="mail" /><br>
     <label>telefono:</label><br>
-    <input id="GET-telefono" type="text" name="telefono" /><br>
+    <input id="telefono" type="text" name="telefono" /><br>
 <br>
-    <input type="submit" value="guardar" />
+    <input type="submit" onclick="formsubmit()" value="guardar" />
   </form>
 
 
